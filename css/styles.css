@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/*ヘッダー関係*/
 header {
   background-color: #EC715F;
   width: 100%;
@@ -43,8 +44,9 @@ nav {
 /*  text-decoration: none;*/
 /*}*/
 
+/*メイン部関係*/
 main {
-  background-color: pink;
+  /*background-color: pink;*/
   width: 100%;
   height: 2000px;
 }
@@ -73,6 +75,126 @@ main {
   text-align: center;
 }
 
+.portfolio {
+  background-color: #ECEFF1;
+}
+
+.pf-body {
+  width: 920px;
+  padding: 90px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pf-index > h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.underline {
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 30px;
+  background-color: #EC715F;
+}
+
+.pf-description {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.pf-contents {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  /*background-color: red;*/
+}
+
+/*portfolio画像関係*/
+.contents {
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+#n1 {
+  background-image: url('../img/sketch.jpg');
+}
+#n2 {
+  background-image: url('../img/websuku.png');
+}
+#n3 {
+  background-image: url('../img/write.jpg');
+}
+#n4 {
+  background-image: url('../img/webcamp.png');
+}
+#n5 {
+  background-image: url('../img/talk.jpg');
+}
+#n6 {
+  background-image: url('../img/webcamp-mother.png');
+}
+
+/*portfolio画像別margin*/
+.contents:nth-of-type(3n) {
+  margin: 0 0 10px 0;
+}
+.contents:nth-child(n+4):nth-child(-n+6) {
+  margin-bottom: 0;
+}
+
+/*.contents1 {*/
+/*  width: 300px;*/
+/*  height: 250px;*/
+/*  background-image: url('../img/sketch.jpg');*/
+/*  background-size: cover;*/
+/*  background-position: center;*/
+/*  margin: 0 10px 10px 0;*/
+/*}*/
+/*.contents2 {*/
+/*  width: 300px;*/
+/*  height: 250px;*/
+/*  background-image: url('../img/websuku.png');*/
+/*  background-size: cover;*/
+/*  background-position: center;*/
+/*  margin: 0 10px 10px 0;*/
+/*}*/
+/*.contents3 {*/
+/*  background-image: url('../img/write.jpg');*/
+/*  width: 300px;*/
+/*  height: 250px;*/
+/*  background-size: cover;*/
+/*  background-position: center;*/
+/*  margin: 0 0 10px 0;*/
+/*}*/
+/*.contents4 {*/
+/*  background-image: url('../img/webcamp.png');*/
+/*  width: 300px;*/
+/*  height: 250px;*/
+/*  background-size: cover;*/
+/*  background-position: center;*/
+/*  margin: ;*/
+/*}*/
+/*.contents5 {*/
+/*  background-image: url('../img/talk.jpg');*/
+/*  width: 300px;*/
+/*  height: 250px;*/
+/*  background-size: cover;*/
+/*  background-position: center;*/
+/*}*/
+/*.contents6 {*/
+/*  background-image: url('../img/webcamp-mother.png');*/
+/*  width: 300px;*/
+/*  height: 250px;*/
+/*  background-size: cover;*/
+/*  background-position: center;*/
+/*}*/
+
+/*フッター関係*/
 footer {
   background-color: olive;
   width: 100%;
