@@ -244,6 +244,52 @@ main {
   color: #000000;
 }
 
+
+
+/*Profile関係*/
+.profile {
+  background-color: #ECEFF1;
+  padding-bottom: 90px;
+}
+
+.profile-body {
+  width: 1024px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profile-body > h2 {
+  padding: 90px 0 8px;
+}
+
+.profile-contents0 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.profile-contents1 {
+  width: 512px;
+}
+
+.profile-contents1 > img {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+}
+
+.profile-contents2 {
+  width: 512px;
+}
+
+.profile-item {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.profile-item:nth-last-child {
+  margin-bottom: 0;
+}
+
 /*フッター関係*/
 footer {
   background-color: olive;
