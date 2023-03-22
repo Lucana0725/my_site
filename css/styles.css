@@ -52,7 +52,6 @@ nav {
 main {
   /*background-color: pink;*/
   width: 100%;
-  height: 2000px;
 }
 
 .mv {
@@ -232,6 +231,11 @@ main {
   margin-right: 0;
 }
 
+.feature-icon {
+  font-size: 60px;
+  font-weight: normal;
+}
+
 .feature-item > h3 {
   font-size: 20px;
   color: #000000;
@@ -260,6 +264,7 @@ main {
 
 .profile-body > h2 {
   padding: 90px 0 8px;
+  font-size: 32px;
 }
 
 .profile-contents0 {
@@ -294,9 +299,12 @@ main {
 /*Contact関係*/
 .contact-body {
   width: 800px;
-  padding-top: 90px;
+  padding: 90px 0 90px;
   margin: 0 auto;
   text-align: center;
+}
+.contact-body > h2 {
+  font-size: 32px;
 }
 
 .contact-items {
@@ -351,7 +359,14 @@ main {
 
 /*フッター関係*/
 footer {
-  background-color: olive;
+  background-color: #EC715F;
   width: 100%;
   height: 60px;
+}
+
+.footer-body {
+  color: #FAFAFA;
+  font-size: 16px;
+  text-align: center;
+  line-height: 60px;
 }
