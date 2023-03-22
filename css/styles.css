@@ -400,4 +400,25 @@ footer {
     color: #FAFAFA ;
     margin: 0 auto;
   }
+
+
+  .pf-body {
+    width: 90%;
+  }
+
+  .pf-contents {
+    display: block;
+  }
+
+  .pf-item {
+    margin: 0 auto 10px;
+  }
+  #n6 { /*上の方で定義した.pf-item:nth-of-type(3n)が優先されているらしいので上書き*/
+    margin: 10px auto 0;
+  }
+
+  .pf-item:nth-child(odd) {
+    display: none;
+  }
+
 }
