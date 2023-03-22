@@ -360,9 +360,6 @@ main {
 
 
 
-
-
-
 /*フッター関係*/
 footer {
   background-color: #EC715F;
@@ -375,4 +372,32 @@ footer {
   font-size: 16px;
   text-align: center;
   line-height: 60px;
+}
+
+
+
+
+/*レスポンシブ対応*/
+@media screen and (max-width:768px) {
+  nav {
+    width: 90%;
+    height: 50px;
+  }
+
+  .mv {
+    background-image: url('../img/code.png');
+    height: 650px;
+  }
+  .mv-title {
+    width: 90%;
+    font-size: 40px;
+    color: #FAFAFA;
+    margin: 0 auto;
+  }
+  .mv-subtitle {
+    width: 90%;
+    font-size: 18px;
+    color: #FAFAFA ;
+    margin: 0 auto;
+  }
 }
