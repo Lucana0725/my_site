@@ -318,6 +318,7 @@ main {
   width: 400px;
 }
 .contact-left-contents {
+  width: 130px;
   margin: 0 auto;
 }
 .contact-left-contents > h3 {
@@ -338,16 +339,21 @@ main {
   width: 400px;
 }
 
+.sns {
+  width: 200px;
+  margin: 0 auto;
+}
+
 .sns > h3 {
   font-size: 20px;
 }
 
-.sns > span {
+.sns > .fab {
   font-size: 50px;
   margin-right: 20px;
   color: #000000;
 }
-.sns > span:last-child {
+.sns > .fab:last-child {
   margin-right: 0;
 }
 
