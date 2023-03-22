@@ -327,6 +327,15 @@ main {
 .contact-left-contents > a {
   color: #000000;
 }
+
+.mail {
+  margin-bottom: 5px;
+}
+
+.tel {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
 /*.mail {*/
 /*  margin: 0 auto;*/
 /*}*/
