@@ -379,11 +379,15 @@ footer {
 
 /*レスポンシブ対応*/
 @media screen and (max-width:768px) {
+  /*ヘッダー関連*/
   nav {
     width: 90%;
     height: 50px;
   }
 
+
+  /*メイン部*/
+  /*メインビジュアル*/
   .mv {
     background-image: url('../img/code.png');
     height: 650px;
@@ -401,7 +405,7 @@ footer {
     margin: 0 auto;
   }
 
-
+  /*Portfolio部*/
   .pf-body {
     width: 90%;
   }
@@ -421,4 +425,25 @@ footer {
     display: none;
   }
 
+
+  /*Feature部*/
+  .feature-body {
+    width: 90%;
+  }
+
+  .feature-contents {
+    display: block;
+  }
+  .feature-item {
+   width: 320px;
+   margin: 10px auto 10px;
+  }
+  .feature-item:first-child {
+    width: 320px;
+    margin: 0 auto 10px;
+  }
+  .feature-item:last-child {
+    width: 320px;
+    margin: 10px auto 0;
+  }
 }
