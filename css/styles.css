@@ -290,6 +290,65 @@ main {
   margin-bottom: 0;
 }
 
+
+/*Contact関係*/
+.contact-body {
+  width: 800px;
+  padding-top: 90px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-items {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.contact-left {
+  width: 400px;
+}
+.contact-left-contents {
+  margin: 0 auto;
+}
+.contact-left-contents > h3 {
+  font-size: 20px;
+}
+.contact-left-contents > a {
+  color: #000000;
+}
+/*.mail {*/
+/*  margin: 0 auto;*/
+/*}*/
+
+/*.contact-right {*/
+/*  width: 400px;*/
+/*}*/
+
+.contact-right {
+  width: 400px;
+}
+
+.sns > h3 {
+  font-size: 20px;
+}
+
+.sns > span {
+  font-size: 50px;
+  margin-right: 20px;
+  color: #000000;
+}
+.sns > span:last-child {
+  margin-right: 0;
+}
+
+
+
+
+
+
+
 /*フッター関係*/
 footer {
   background-color: olive;
