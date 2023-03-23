@@ -455,4 +455,49 @@ footer {
     width: 320px;
     margin: 10px auto 0;
   }
+
+
+  /*Profile部*/
+  .profile-body {
+    width: 90%;
+  }
+  .profile-contents0 {
+    display: block;
+    /*text-align: center;*/
+    /*margin: 0 auto;*/
+  }
+  .profile-contents1, .profile-contents2 {
+    margin: 0 auto;
+  }
+  .profile-item {
+    text-align: center;
+  }
+
+
+  /*Contact部*/
+  .contact-body {
+    width: 90%;
+  }
+  .contact-items {
+    display: block;
+  }
+  .contact-left, .contact-right {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+ .tel {
+   margin-top: 20px;
+ }
+
+ .sns {
+   margin-top:20px;
+ }
+
+
+  /*フッター*/
+  footer {
+    height: 60px;
+    font-size: 16px;
+  }
 }
