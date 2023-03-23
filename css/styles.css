@@ -327,6 +327,15 @@ main {
 .contact-left-contents > a {
   color: #000000;
 }
+
+.mail {
+  margin-bottom: 5px;
+}
+
+.tel {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
 /*.mail {*/
 /*  margin: 0 auto;*/
 /*}*/
@@ -360,9 +369,6 @@ main {
 
 
 
-
-
-
 /*フッター関係*/
 footer {
   background-color: #EC715F;
@@ -375,4 +381,123 @@ footer {
   font-size: 16px;
   text-align: center;
   line-height: 60px;
+}
+
+
+
+
+/*レスポンシブ対応*/
+@media screen and (max-width:768px) {
+  /*ヘッダー関連*/
+  nav {
+    width: 90%;
+    height: 50px;
+  }
+
+
+  /*メイン部*/
+  /*メインビジュアル*/
+  .mv {
+    background-image: url('../img/code.png');
+    height: 650px;
+  }
+  .mv-title {
+    width: 90%;
+    font-size: 40px;
+    color: #FAFAFA;
+    margin: 0 auto;
+  }
+  .mv-subtitle {
+    width: 90%;
+    font-size: 18px;
+    color: #FAFAFA ;
+    margin: 0 auto;
+  }
+
+  /*Portfolio部*/
+  .pf-body {
+    width: 90%;
+  }
+
+  .pf-contents {
+    display: block;
+  }
+
+  .pf-item {
+    margin: 0 auto 10px;
+  }
+  #n6 { /*上の方で定義した.pf-item:nth-of-type(3n)が優先されているらしいので上書き*/
+    margin: 10px auto 0;
+  }
+
+  .pf-item:nth-child(odd) {
+    display: none;
+  }
+
+
+  /*Feature部*/
+  .feature-body {
+    width: 90%;
+  }
+
+  .feature-contents {
+    display: block;
+  }
+  .feature-item {
+   width: 320px;
+   margin: 10px auto 10px;
+  }
+  .feature-item:first-child {
+    width: 320px;
+    margin: 0 auto 10px;
+  }
+  .feature-item:last-child {
+    width: 320px;
+    margin: 10px auto 0;
+  }
+
+
+  /*Profile部*/
+  .profile-body {
+    width: 90%;
+  }
+  .profile-contents0 {
+    display: block;
+    /*text-align: center;*/
+    /*margin: 0 auto;*/
+  }
+  .profile-contents1, .profile-contents2 {
+    margin: 0 auto;
+  }
+  .profile-item {
+    text-align: center;
+  }
+
+
+  /*Contact部*/
+  .contact-body {
+    width: 90%;
+  }
+  .contact-items {
+    display: block;
+  }
+  .contact-left, .contact-right {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+ .tel {
+   margin-top: 20px;
+ }
+
+ .sns {
+   margin-top:20px;
+ }
+
+
+  /*フッター*/
+  footer {
+    height: 60px;
+    font-size: 16px;
+  }
 }
